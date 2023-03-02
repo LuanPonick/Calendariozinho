@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 616px;
+  height: 473px;
+  margin-inline: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header{
+  position: absolute;
+  background: rgba(248, 248, 248, 0.9);
+  width: 616px;
+  height: 124px;
+}
+header h1{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header img{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 20px;
+  top: 28px;
+}
+.container{
+  top: calc(124px + 20px);
+  height: 329px;
+  width: 100%;
+  background-color: #F8F8F8;
+  position: absolute;
+}
+.container form {
+  padding: 20px;
+}
+.container form div img{
+  width: 32px;
+}
+label{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+input{
+  height: 80px;
+  border: 0;
+  background-color: #F8F8F8;
+}
