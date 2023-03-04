@@ -1,0 +1,117 @@
+main{
+    width: 616px;
+    height: 473px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cabecalho{
+    width: 616px;
+    height: 124px;
+    background-color: rgba(248, 248, 248, 0.9);
+    position: absolute;
+    padding: 20px;
+}
+.cabecalho img{
+    width: 64px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cabecalho h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    font-family: 'Bellota Text', cursive;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    font-size: 54px;
+    color: #C0A999;
+    line-height: 68px;
+}
+.login{
+    width: 100%;
+    height: 329px;
+    position: absolute;
+    background: rgba(248, 248, 248, 0.9);
+    bottom: 0;
+}
+form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.userContainer,.passwordContainer{
+    width: 576px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.userContainer input ,
+.passwordContainer input ,
+.userContainer input::placeholder,
+.passwordContainer input::placeholder{
+    border: 0;
+    height: 64px;
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+
+    color: #C0A999;
+    background-color: rgba(255, 255, 255, 0);
+}
+hr{
+    width: 576px;
+    height: 2px;
+    margin-block: 10px;
+    margin-inline: 0;
+
+    background: rgba(192, 169, 153, 0.7);
+    border-radius: 59px;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 20px;
+    gap: 10px;
+
+    width: 576px;
+    height: 96px;
+    
+    background: linear-gradient(180deg, #6D5D68 49.48%, #5F4C59 100%);
+
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+}
+.enviar:hover{
+    animation: changeBackgroundColor 0.1s backwards;
+    background: linear-gradient(180deg, #5C4B57 50%, #392E36 100%);
+}
+.enviar:active{
+    background: linear-gradient(180deg, #3b3535 50%, #413939 100%);
+    border:5px solid black;
+}
+.info-err{
+    color: rgba(222, 0, 0, 0.745);
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    
+}

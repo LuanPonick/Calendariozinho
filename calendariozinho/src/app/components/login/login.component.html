@@ -1,0 +1,25 @@
+<main>
+    <section class="cabecalho">
+        <img src="../../../assets/Calendario.png" alt="">
+        <h1>Login</h1>
+    </section>
+    <section class="login">
+        <form action="teste">
+            <div class="po-row userContainer">
+                <label for="userName" class="po-md-1 po-mr-3">
+                    <img src="../../../assets/User.png" alt="user">
+                </label>
+                <input placeholder="User Name" type="text" id="userName" class="po-md-9">
+            </div>
+            <hr>
+            <div class="po-row passwordContainer">
+                <label class="po-md-1 po-mr-3" for="password">
+                    <img src="../../../assets/locker.png" alt="senha">
+                </label>
+                <input placeholder="Password" class="po-md-9" type="password" id="password">
+            </div>
+            <div class="info-err">{{msgError}}</div>
+            <input class="enviar" type="submit" value="Login">
+        </form>
+    </section>
+</main>

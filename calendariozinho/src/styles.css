@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 body{
-  background: linear-gradient(162.46deg, #C0A999 68.32%, rgba(187, 143, 215, 0.79) 87.99%);
+    background: linear-gradient(162.46deg, #C0A999 68.32%, rgba(187, 143, 215, 0.79) 87.99%);
+}
+
+
+@keyframes changeBackgroundColor {
+    0% {
+        background: linear-gradient(180deg, #6D5D68 49.48%, #5F4C59 100%);
+    }
+    50%{
+        background: linear-gradient(180deg, #6c5766 50%, #50404c 100%);
+    }
+    100% {
+        background: linear-gradient(180deg, #5C4B57 50%, #392E36 100%);
+    }
 }

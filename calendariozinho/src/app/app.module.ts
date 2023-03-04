@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { PoModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { LoginpageComponent } from './components/loginpage/loginpage.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginpageComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
