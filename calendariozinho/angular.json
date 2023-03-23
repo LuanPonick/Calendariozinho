@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "calendariozinho": {
+    "Calendariozinho": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "calendariozinho:build:production"
+              "browserTarget": "Calendariozinho:build:production"
             },
             "development": {
-              "browserTarget": "calendariozinho:build:development"
+              "browserTarget": "Calendariozinho:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "calendariozinho:build"
+            "browserTarget": "Calendariozinho:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "e73beb86-8627-4c27-84d3-e8b2b5cb3c26"
+    "analytics": "9d07e63e-f793-4ae9-b8dd-79ee2edfbee1"
   }
 }

@@ -6,12 +6,17 @@ import { AppComponent } from './app.component';
 import { PoModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { LoginpageComponent } from './components/loginpage/loginpage.component';
+import { LoginComponent } from './components/login/login.component';
+import { LoginOkComponent } from './components/login-ok/login-ok.component';
+import { PoButtonModule } from '@po-ui/ng-components';
+import { TrescolunasComponent } from './components/trescolunas/trescolunas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginpageComponent
+    LoginComponent,
+    LoginOkComponent,
+    TrescolunasComponent
   ],
   imports: [
     BrowserModule,
