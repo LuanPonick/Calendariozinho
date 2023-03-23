@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
+:root{
+  --collapsed-menu-width: 169px;
+  --menu-collapsed-size: 169px;
+  --menu-size:472px;
+  --menu-width:472px;
+  --color-menu-border-top-logo: rgba(0, 0, 0, 0);
+  --color-menu-background-color-menu: rgba(0, 0, 0, 0.2);
+  --color-wrapper-menu-panel-color-background: rgba(0, 0, 0, 0);
+  --color-page-background-color-page:rgba(0, 0, 0, 0);
+}
 body{
     background: linear-gradient(162.46deg, #C0A999 68.32%, rgba(187, 143, 215, 0.79) 87.99%);
 }
@@ -15,4 +24,62 @@ body{
     100% {
         background: linear-gradient(180deg, #5C4B57 50%, #392E36 100%);
     }
+
 }
+.po-menu-item-wrapper{
+ height: 160px;
+}
+.po-menu-footer{
+  display: none !important;
+}
+.po-icon-profile{
+  content: url(assets/Profile.png);
+}
+.po-icon-menu{
+  content: url(assets/Menu.png);
+}
+.po-icon-add{
+  content: url(assets/Add.png);
+}
+.po-icon-remove{
+  content: url(assets/Remove.png);
+}
+.po-icon-collum{
+  content: url(assets/Collum.png);
+}
+.po-icon-exit{
+  content: url(assets/Exit.png);
+}
+.po-menu-icon-container{
+  height: 100%;
+}
+.po-menu-icon-label{
+  float: left;
+  position: relative;
+  margin: 0;
+  text-transform: capitalize;
+  top: 50%;
+  left: 128px;
+  font-family: 'Bellota Text', cursive;
+  font-size: 64px;
+  line-height: 81px;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  color: #C0A999;
+  transform: translateY(-50%);
+
+}
+
+/*
+
+.teste * * * * * .po-menu-item-wrapper{
+  height: 16%;
+}
+.teste * * * * * * *{
+  height: 100%;
+}
+
+.teste po-icon{
+  font-size: 129px;
+}
+*/

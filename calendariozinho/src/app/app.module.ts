@@ -7,11 +7,16 @@ import { PoModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
+import { LoginOkComponent } from './components/login-ok/login-ok.component';
+import { PoButtonModule } from '@po-ui/ng-components';
+import { TrescolunasComponent } from './components/trescolunas/trescolunas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    LoginOkComponent,
+    TrescolunasComponent
   ],
   imports: [
     BrowserModule,
