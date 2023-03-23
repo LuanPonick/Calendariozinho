@@ -9,21 +9,22 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { LoginOkComponent } from './components/login-ok/login-ok.component';
 import { PoButtonModule } from '@po-ui/ng-components';
-import { TrescolunasComponent } from './components/trescolunas/trescolunas.component';
+import { ColunasComponent } from './components/colunas/colunas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     LoginOkComponent,
-    TrescolunasComponent
+    ColunasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PoModule,
     HttpClientModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([]),
+    PoButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

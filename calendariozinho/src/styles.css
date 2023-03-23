@@ -67,19 +67,8 @@ body{
   font-weight: 400;
   color: #C0A999;
   transform: translateY(-50%);
-
 }
-
-/*
-
-.teste * * * * * .po-menu-item-wrapper{
-  height: 16%;
+.po-page-content{
+  padding: 0;
+  padding-left: 10px;
 }
-.teste * * * * * * *{
-  height: 100%;
-}
-
-.teste po-icon{
-  font-size: 129px;
-}
-*/

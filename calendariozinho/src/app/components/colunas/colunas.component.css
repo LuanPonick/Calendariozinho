@@ -1,0 +1,40 @@
+.coluna{
+  width: 427px;
+  height: auto;
+  border: 5px solid rgba(0, 0, 0, 0.17);
+}
+.cabecalho{
+  border-bottom: 5px solid rgba(0, 0, 0, 0.17);;
+  height: 121px;
+
+  font-family: 'Bellota Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 81px;
+
+  letter-spacing: 0.08em;
+  color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+span{
+
+}
+.note{
+
+}
+.ok-note-green{
+  background-color: rgba(91, 241, 91, 0.384);
+}
+.ok-note-red{
+  background-color: rgba(241, 91, 91, 0.384);
+}
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: repeat(25, 200px);
+}
